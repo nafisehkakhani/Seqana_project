@@ -3,7 +3,7 @@
 ![Banner](img/Spatial_Distribution_of_SOC.png)
 
 ## Project Description
-This project is a data engineering challenge that involves processing and analyzing soil data. The goal is to clean, preprocess, and visualize the data to gain insights into soil properties.
+This project is a data engineering challenge that involves processing and analyzing soil data. The goal is to clean, preprocess, and visualize the data to gain insights into soil properties and ultimately create a soil database using SQL.
 
 ## Features
 - Data cleaning and preprocessing
@@ -40,7 +40,7 @@ The initial data exploration and analysis are documented in the `exploratory_dat
 ## Data Normalization and Database Formation
 After exploring and cleaning the data, the next step is data normalization and database formation. This process is handled in the `main.py` script:
 - **Data Normalization**: The cleaned data is organized into three tables: Countries, Profiles, and Layers. The Countries table, despite having only one country, provides a scalable structure for future data. The Profiles table stores information about unique soil profiles and links to the Countries table. Each profile can have multiple layers, which are detailed in the Layers table linked to the Profiles table. This organization reduces redundancy, ensures data integrity, and makes it easier to manage and query the data.
-- **Database Creation**: The normalized data is then inserted into an SQLite database by running `main.py`. The database schema is defined in the `Seqana.sql` script, which sets up the database structure when executed.
+- **Database Creation**: The normalized data is then inserted into an SQLite database `soil_data.db` by running `main.py`. The database schema is defined in the `Seqana.sql` script, which sets up the database structure when executed.
 
 ## Testing the Database
 To ensure the database is correctly set up and functioning, we have included a `test_sql.py` script. This script performs the following tests:
@@ -58,7 +58,7 @@ To ensure the database is correctly set up and functioning, we have included a `
 
 2. **Create and Activate Conda Environment**:
     ```sh
-    conda create --name seqana_test_env python=3.8
+    conda create --name seqana_test_env
     conda activate seqana_test_env
     ```
 
