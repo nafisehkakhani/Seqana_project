@@ -4,6 +4,7 @@
 
 ## Project Directory Structure
 
+```
 Seqana-Project/
 ├── img/
 │   └── Spatial_Distribution_of_SOC.png
@@ -19,13 +20,14 @@ Seqana-Project/
 ├── map.html
 ├── Seqana.sql
 └── .gitignore
+```
 
 ## Setup and Run
 
 1. **Clone the Repository**:
     ```sh
-    git clone https://github.com/yourusername/your-private-repo.git
-    cd your-private-repo
+    git clone https://github.com/nafisehkakhani/Seqana_project.git
+    cd Seqana_project
     ```
 
 2. **Create and Activate Conda Environment**:
@@ -47,3 +49,4 @@ Seqana-Project/
 ## Notes
 - Ensure you have `conda` installed and configured on your system.
 - Replace `<path_to_excel_file>` with the actual path to your Excel file.
+```
