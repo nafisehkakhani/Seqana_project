@@ -1,0 +1,8 @@
+# .gitignore
+*.pyc
+__pycache__/
+.DS_Store
+env/
+*.xlsx
+test1.py
+data_normalization_and_db_insertion.py
