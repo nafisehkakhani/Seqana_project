@@ -1,5 +1,25 @@
 # Seqana Data Engineering Challenge
 
+![Banner](img/Spatial_Distribution_of_SOC.png)
+
+## Project Directory Structure
+
+Seqana-Project/
+├── img/
+│   └── Spatial_Distribution_of_SOC.png
+├── main.py
+├── utils/
+│   └── utils.py
+├── run_project.sh
+├── exploratory_data_analysis.ipynb
+├── requirements.txt
+├── README.md
+├── soil_data.db
+├── test_sql.py
+├── map.html
+├── Seqana.sql
+└── .gitignore
+
 ## Setup and Run
 
 1. **Clone the Repository**:
